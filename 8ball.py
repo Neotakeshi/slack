@@ -5,7 +5,7 @@ import random
 ans = True
 
 while ans:
-    question = raw_input("Ask the magic 8 ball a question: (press enter to quit) ")
+    question=input("Ask the magic 8 ball a question: (press enter to quit) ")
     
     answers = random.randint(1,8)
     
@@ -13,25 +13,26 @@ while ans:
         sys.exit()
     
     elif answers == 1:
-        print "It is certain"
+
+       print('d')
     
     elif answers == 2:
-        print "Outlook good"
+        print('d2')
     
     elif answers == 3:
-        print "You may rely on it"
+        print('d3')
     
     elif answers == 4:
-        print "Ask again later"
+        print('d4')
     
     elif answers == 5:
-        print "Concentrate and ask again"
+        print('d5')
     
     elif answers == 6:
-        print "Reply hazy, try again"
+        print('d6')
     
     elif answers == 7:
-        print "My reply is no"
+        print('d7')
     
     elif answers == 8:
-        print "My sources say no"
+        print('d8')
